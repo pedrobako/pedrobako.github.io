@@ -1,0 +1,50 @@
+html {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	background-color: #00539f;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;/* Sup e Inf = zero, Esq e Dir = espaço restante disponível dividido por 2 */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* superior, lado direito, inferior e lado esquerdo, nessa ordem. */
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 30px;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
+  border: 5px solid black;
+  width: 500px;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+#my-id {
+	color: blue;
+	border: 3px solid yellow;
+}
+
+.my-class {
+	color: brown;
+}
+
+/* Estilo para os links "<a>" quando o mouse estiver sobre o link "hover" */
+a:hover {
+	color: red;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
